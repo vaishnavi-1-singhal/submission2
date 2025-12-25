@@ -23,7 +23,7 @@ class _CineWatchState extends State<CineWatch> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: true,
-      themeMode: _themeMode,
+      title: 'CineWatch',
       theme: ThemeData(
         brightness: Brightness.light,
         primaryColor: Colors.white10,
@@ -33,7 +33,17 @@ class _CineWatchState extends State<CineWatch> {
         brightness: Brightness.dark,
         primaryColor: Colors.lightBlue,
         scaffoldBackgroundColor: Colors.black,
-      ),
+      ),themeMode: _themeMode,
+      
     );
   }
+}
+class Movie{
+  final String title;
+  final String genre;
+  final String descripton;
+  final double rating;
+  final String posterUrl;
+
+  Movie({required this.title, required this.genre, required this.descripton, required this.rating, required this.posterUrl});
 }
