@@ -17,3 +17,10 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+assets:
+  - assets/images/interstellarposter.jpeg
+  - assets/images/inceptionposter.jpeg
+  - assets/images/jawsposter.jpeg
+  - assets/images/avatarposter.jpeg
+  - assets/images/avengersendgameposter.jpeg
